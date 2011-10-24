@@ -1,0 +1,21 @@
+submitGenBuild v1.0 
+--------------------------------------------------------
+submitGenBuild is used to generate the parameter files for the assembleCons application that can be used to build a 3D structure.  The configuration files will contain a list of build steps for all possible bulge patterns for a given secondary structure contraint. The script submitGenBuild.sh can be run to generate parameter files for the assembleCons routine 
+
+This application uses the following parameter file
+
+### Structure Informaiton ####################
+sequence = GGAUGCCUCCCGAGUGCAUCC
+structure= ((((((.........))))))
+gen_confs=helix_confs.txt
+output_prefix = ./helix
+
+
+sequence - the sequence of the RNA molecule to be folded
+structure - the desired secondary structure
+gen_confs - a file containing the range of nucleotides to generate the configuration files. This range must contain a closed secondary structure. For example if you only wanted to generate parameter files for the range 5-17 instead of the entire molecule 1-21. This file has the format
+step\tstart_pos\tend_pos 
+output_prefix - Writes the configuration files using the given prefix.  prefix_con.txt, prefix_csh.txt, prefix_pos.txt
+
+
+

@@ -1,0 +1,12 @@
+RSIMS - Is an RNA structure prediction and design C++ library
+
+The easiest way to get started is to compile the program with the following commands 
+
+cd ./src
+make all
+cd ../apps
+make all
+
+Then check out the examples in ./examples
+
+

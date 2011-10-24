@@ -1,0 +1,92 @@
+scoreTable v1.0
+------------------------------------------------------------
+scoreTable application takes as input a list of PDB files. Run ./scores.sh to generate the output file scores.txt. For each PDB file it calculates the nucleotide resolution scoring parameters in a CSV file with the following format
+
+total_length,  ## This is the total number of nucleotides in the RNA molecule in the PDB file
+local_rmsd,    ## If the native PDB is given the RMSD of this nucleotide region is given
+gorder,        ## Graph Order 
+gtype1,        ## Global Score 1 = sum(gorder)
+gtype2,        ## Global Score 2  
+gtype3,        ## Global Score 3
+gtype4,        ## Global Score 4
+rtype,         ## Residue Type 1=G, 2=A, 3=U, 4=C
+volumes,       ## Total volume of heavy atoms in base
+unpacked,      ## Total Unpacked Atoms in base
+surface,       ## Total surface area of base
+bvolumes,      ## Total volume of atoms in backbone
+bunpacked      ## Total unpacked atoms in backbone
+bsurface       ## Total surface area of backbone
+surfG          ## Surface area of base atoms in contact with G
+surfA          ## Surface area of base atoms in contact with A
+surfU          ## Surface area of base atoms in contact with U
+surfC          ## Surface area of base atoms in contact with C
+bsurfG         ## Surface area of backbone atoms in contact with G
+bsurfA         ## Surface area of backbone atoms in contact with A
+bsurfU         ## Surface area of backbone atoms in contact with U
+bsurfC         ## Surface area of backbone atoms in contact with C
+orderG         ## Number of unique G resiudes contacting base
+orderA         ## Number of unique A residues contacting base
+orderU         ## Number of unique U residues contacting base
+orderC         ## Number of unique C resiudes contacting base
+borderG        ## Number of unique G resiudes contacting backbone
+borderA        ## Number of unique A residues contacting backbone
+borderU        ## Number of unique U residues contacting backbone
+borderC        ## Number of unique C resiudes contacting backbone
+vatom0         ## Volume of atom0 (check src/voro/container.cc for atom map)  
+vatom1       
+vatom2       
+vatom3       
+vatom4       
+vatom5       
+vatom6       
+vatom7       
+vatom8       
+vatom9       
+vatom10       
+vatom11       
+vatom12       
+vatom13       
+vatom14       
+vatom15       
+vatom16       
+vatom17       
+vatom18       
+vatom19       
+vatom20       
+vatom21       
+vatom22       
+vatom23       
+vatom24       
+vatom25       
+vatom26       
+atom0          ## Packing of atom0 (0=unpacked, 1=packed)
+atom1       
+atom2       
+atom3       
+atom4       
+atom5       
+atom6       
+atom7       
+atom8       
+atom9       
+atom10       
+atom11       
+atom12       
+atom13       
+atom14       
+atom15       
+atom16       
+atom17       
+atom18       
+atom19       
+atom20       
+atom21       
+atom22       
+atom23       
+atom24       
+atom25       
+atom26       
+hydros          ## Hydrogen bonds
+doublets        ## Doublet library score
+hydrogen bond residue type 1=G,2=A,3=U,4=C
+

@@ -1,0 +1,94 @@
+void Polymere::genStacked(const std::vector< Fragment *>  frags,Fragclass * dat,std::vector< Fragatoms *> atoms,std::vector<Fragall *> batoms)
+{
+//WARNING this removes all movement probability information contained in the polymere
+//first = mid.point start-3, second = midpoint start+1
+//For each movement group identify the best pair of fragments that
+//by score,clashes, and backbone connections
+
+//Create an initial group that contains all elements between the frist 
+//two positions in the movement group
+for(int g=2; g<(num_mols-3); g++){
+//mols[g]->group=5;
+mols[g]->prob=0;
+}
+printf("Setting up groups and probs: %d,%d\n",this->groupCheckBackBone(5),this->groupCheckClashes(5));
+ 
+//Create a temporary polymere to hold the tested positions
+Polymere * pol2=new Polymere();
+Polymere * pol1=new Polymere();
+Polymere * outpol=new Polymere();
+//Use single moves between first pair of nt's to identify fragments
+//that align the first pair nt's
+outpol->copy(this);
+pol1->copy(this);
+int best_score=0; //Best Possible Score is -1*(num_mols - 1)
+std::vector<int> stackprobs;
+std::vector<int> movepos;
+int breakout=0;
+for(int s=0; s<100; s++){
+printf("Attemp %d\n",s);
+pol1->copy(this);//reset the starting position
+for(int n=0; n<100; n++){
+//Pick random positions from start loop
+//Try to minimize score for starting NT's
+pol2->copy(pol1);
+//Get a list of positions that still need to be stacked
+movepos.clear();
+for(int m=3; m<(pol2->num_mols-3); m++){
+if(pol2->mols[m]->prob==0){movepos.push_back(m);
+}
+}
+//For each unstacked position replace it with a stacked fragment
+for(int rpos=0; rpos<movepos.size(); rpos++){
+printf("Moving %d\n",movepos[rpos]);
+//Move it until it stacks or 100 moves
+//reset pol2 to pol1
+pol2->copy(pol1);
+int madeit=0;
+int iter=0;
+while(madeit==0){
+if(iter>1000){madeit=1;}
+int fid=pol2->chooseSingle(movepos[rpos],dat);
+if(batoms[fid]->check()==1){
+pol2->changeFrag2(movepos[rpos],fid,frags);
+pol2->coordSysNt(movepos[rpos],&atoms[fid]->atoms);
+pol2->updateFull();
+pol2->coordSysAT(movepos[rpos],&batoms[fid]->atoms);
+if(pol2->groupCheckBackBone(5) < 1 && pol2->groupCheckClashes(5) < 1){
+stackprobs.clear();
+float iscore=-1*pol2->adjStacked(&stackprobs);
+//Check to see if the current position becomes stacked
+if((stackprobs[movepos[rpos]-1]+stackprobs[movepos[rpos]]+stackprobs[movepos[rpos]+1]+stackprobs[movepos[rpos]+2])==4){
+pol2->mols[movepos[rpos]]->prob=1;
+printf("madit: %d\n",movepos[rpos]);
+madeit=1;
+pol1->copy(pol2);
+}
+}
+}
+iter++;
+}//Loop madeit==0
+}//Loop rpos
+//Update stacking probs
+stackprobs.clear();
+float tot;
+tot=pol1->adjStacked(&stackprobs);
+int unstacked=0;
+for(int m=3; m<(pol1->num_mols-5); m++){
+if(stackprobs[m]==1 && stackprobs[m+1]==1 && stackprobs[m+2]==1){pol1->mols[m]->prob=1;}else{printf("%d - unstacked\n",m);unstacked++;}
+}
+if(unstacked < best_score){
+outpol->copy(pol1);
+printf("Total Unstacked: %d\n",unstacked);
+}
+if(unstacked==0){
+breakout=1;
+outpol->copy(pol1);
+break;
+}
+}//Loop n < 20000
+if(breakout==1){break;}
+}
+this->copy(outpol);
+
+}

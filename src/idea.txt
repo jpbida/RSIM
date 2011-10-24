@@ -1,0 +1,6 @@
+IN-VITRO SELECTION FOR PROTEIN BINDING RNA
+
+1) DNA PLASMID Coding for random RNA molecules
+2) Circular replication
+3) Exonuclease tries to kill plasmids
+4) Only plasmids that inhibit survive

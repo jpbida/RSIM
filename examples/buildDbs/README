@@ -1,0 +1,128 @@
+###  This is a collection of perl scripts and R code ###
+###  used to create sets of fragment databases for   ###
+###  the RSIM progam                                 ###
+
+### RSIM_PATH - refers to main directory of RSIM     ###
+
+### Creating Fragment Databases                      ###
+
+1) Make sure the ./pdb2fuzzy application has been    
+   compiled and the Math::VectorReal.pm perl module
+   is installed.
+
+	cd RSIM_PATH/apps
+	make pdb2fuzzy
+  
+        perl -MCPAN -e shell
+        >install Math::VectorReal
+      
+2) Create a directory of PDB files that will be used 
+   to generate the fragments in the library
+
+   If you are using PDB files the protein databank
+   the perl script getAccession.pl can be used to 
+   download a list of pdb_ids. 
+
+   cd ./pdbs
+   ./pdb.sh
+
+   accession.list is a file containing a list of accession
+   numbers for PDB files containing RNA molecules. 
+   
+   All files will be downloaded  into pdbs 
+
+   Caveats: 
+
+   - Make sure the PDB files use the following naming 
+     conventions for atoms in the RNA molecules. If the
+     residues don't have these atoms they will not be 
+     included in the fragment database. Because the first 
+     nucleotide in an RNA molecule doesn't contain a 
+     phosphate these are excluded. 
+
+     ATOM names
+     " P  "
+     " OP1"
+     " OP2"
+     " O5'"
+     " C5'"
+     " C4'"
+     " O4'"
+     " C3'"
+     " O3'"
+     " C2'"
+     " O2'"
+     " C1'"
+      A/G
+     " C4 "
+     " N9 "
+      C/U
+     " C2 "
+     " N1 "
+   - If  PDBs were generated with different naming  
+     conventions the convert application can be used to 
+     map the atom names from one  to the other
+
+     RSIM_PATH/bin/convert -c my_pdb.ent -p ./pdb.map
+
+     The pdb.map file contains the map from one atom type to
+     another
+
+   - Fragments only update three nucleotides but use information 
+     about the nucleotides before and after the fragments to 
+     calculate torsion angles.  This means at least 5 fragments  
+     are required, to have a single fragment for the library. 
+
+   - Overlapping fragments are extracted. Meaning  if you have 5 NTs
+     one fragment will be added to the library. If you have 6 NTs, 
+     two fragments will be added to the library. 
+
+     Original Sequence:       AAGGCC
+                               AGG
+     Fragments                  GGC
+                                 GCC
+
+   PDB files is created they must be renamed  to have the file 
+   extension .ent.gz if they don't have this already.   
+
+3) Extracting the fragments and creating the annotation file
+
+./extractRes.sh
+  This should split up all the pdbs in the ./pdbs directory into 5NT fragments stored in ./data directory
+ 
+./extractBp.sh
+  This creates _bps.txt files in the ./pdbs directory storing base-pairing information
+
+./extractMap.sh 
+  This links _bps.txt data to residue ids in the pdb files
+
+./extractHelix.sh 
+  Extracts helix statistics for fragments
+
+./extractLoops.sh 
+  Extracts loop statistics for fragments
+
+./extractCombo.sh 
+  Combines statistics 
+
+./extractTorsion.sh
+  Creates frag_nt,frag_db,frag_id,frag_at databases from files in ./data directory
+
+./makeFFrags.sh
+  Creates a vector representation of the fragments for clustering outputs the file fvects.vect. You need to delete the header in this file(leaving only CSV data).
+
+./makeRFrags.sh
+  Creates a vector representation of the fragments for clustering. You need to delete the header in this file. (leaving only CSV data)
+
+4) Run the analyze.r program to generate several different types of fragment databases
+   each containing different compositions of helical and looped regions or create your own program that uses the statistics from the *_combo.txt files to generate a fragment library
+
+5) cd into the fragment library you want to use 
+
+cd ./data/frag_db0
+
+6) Copy grid.r into the ./data/frag_db0/libs directory and run it to cluster the fragment vectors 
+
+7) Point RSIM to the ./data/frag_db0 directory in the configuration files
+
+ 

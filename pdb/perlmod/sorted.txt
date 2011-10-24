@@ -1,0 +1,52 @@
+97   A  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  C8  N1  N1  N3  N3  N6  N6  N7  N7  N9  N9  O2' O2' O3' O3' O4' O4' O5' O5' OP1 OP1 OP2 OP2 P  
+56   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O2' O3' O4'
+51   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O2' O3' O4' O5'
+7   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O2' O3' O4' O5' OP1 OP2
+42   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O2' O3' O4' O5' OP1 OP2 P  
+137   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O3' O4' O5' OP1 OP2
+153   A  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2
+86   A  O5' OP1 OP2
+130   A  P  
+174   A  P   P  
+172   A  P   P   P  
+175   A  P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P  
+146   C  C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C2  C2  C2  C2  C2  C2  C2  C2  C2  C2  C2  C2  C2  C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C4  C4  C4  C4  C4  C4  C4  C4  C4  C4  C4  C4  C4  C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C5  C5  C5  C5  C5  C5  C5  C5  C5  C5  C5  C5  C5  C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C6  C6  C6  C6  C6  C6  C6  C6  C6  C6  C6  C6  C6  C8  C8  C8  C8  C8  N1  N1  N1  N1  N1  N1  N1  N1  N1  N1  N1  N1  N1  N2  N2  N2  N2  N2  N3  N3  N3  N3  N3  N3  N3  N3  N3  N3  N3  N3  N3  N4  N4  N4  N4  N7  N7  N7  N7  N7  N9  N9  N9  N9  N9  O2  O2  O2  O2  O2  O2  O2  O2  O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O4  O4  O4  O4  O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O6  O6  O6  O6  O6  OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 P   P   P   P   P   P   P   P   P   P   P   P  
+184   C  C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C2  C2  C2  C2  C2  C2  C2  C2  C2  C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C4  C4  C4  C4  C4  C4  C4  C4  C4  C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C5  C5  C5  C5  C5  C5  C5  C5  C5  C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C6  C6  C6  C6  C6  C6  C6  C6  C6  C8  C8  C8  N1  N1  N1  N1  N1  N1  N1  N1  N1  N2  N2  N3  N3  N3  N3  N3  N3  N3  N3  N3  N4  N4  N4  N6  N7  N7  N7  N9  N9  N9  O2  O2  O2  O2  O2  O2  O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O4  O4  O4  O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O6  O6  OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 P   P   P   P   P   P   P   P   P  
+147   C  C1' C1' C1' C1' C1' C2  C2  C2  C2  C2  C2' C2' C2' C2' C2' C3' C3' C3' C3' C3' C4  C4  C4  C4  C4  C4' C4' C4' C4' C4' C5  C5  C5  C5  C5  C5' C5' C5' C5' C5' C6  C6  C6  C6  C6  C8  C8  C8  N1  N1  N1  N1  N1  N2  N2  N3  N3  N3  N3  N3  N4  N4  N6  N7  N7  N7  N9  N9  N9  O2  O2  O2' O2' O2' O2' O2' O3' O3' O3' O3' O3' O4' O4' O4' O4' O4' O5' O5' O5' O5' O5' O6  O6  OP1 OP1 OP1 OP1 OP1 OP2 OP2 OP2 OP2 OP2 P   P   P   P  
+183   C  C1' C1' C1' C2  C2  C2  C2' C2' C2' C3' C3' C3' C4  C4  C4  C4' C4' C4' C5  C5  C5  C5' C5' C5' C6  C6  C6  C8  N1  N1  N1  N3  N3  N3  N4  N4  N6  N7  N9  O2  O2  O2' O2' O2' O3' O3' O3' O4' O4' O4' O5' O5' O5' OP1 OP1 OP1 OP2 OP2 OP2 P   P  
+187   C  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  N1  N1  N3  N3  N4  N4  O2  O2  O2' O2' O3' O3' O4' O4' O5' O5' OP1 OP1 OP2 OP2 P  
+6   C  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  N4  O2  O2' O3' O4'
+11   C  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  N4  O2  O2' O3' O4' O5'
+10   C  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  N4  O2  O2' O3' O4' O5' OP1 OP2
+155   C  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2
+129   C  P  
+173   C  P   P  
+171   C  P   P   P  
+168   C  P   P   P   P   P   P  
+98   G  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  C8  N1  N1  N2  N2  N3  N3  N7  N7  N9  N9  O2' O2' O3' O3' O4' O4' O5' O5' O6  O6  OP1 OP1 OP2 OP2 P  
+148   G  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  N1  N1  N2  N3  N3  N4  N7  N9  O2  O2' O2' O3' O3' O4' O4' O5' O5' O6  OP1 OP1 OP2 OP2 P  
+12   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6 
+9   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6  OP1 OP2
+14   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6  OP1 OP2 OP3 P  
+15   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6  OP1 OP2 P  
+127   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6  P  
+13   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O6 
+152   G  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2
+132   G  P  
+170   G  P   P  
+176   G  P   P   P  
+169   G  P   P   P   P   P   P  
+177   G  P   P   P   P   P   P   P  
+145   U  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  N1  N1  N2  N3  N3  N7  N9  O2  O2' O2' O3' O3' O4  O4' O4' O5' O5' O6  OP1 OP1 OP2 OP2 P  
+144   U  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  N1  N1  N3  N3  N6  N7  N9  O2  O2' O2' O3' O3' O4  O4' O4' O5' O5' OP1 OP1 OP2 OP2 P  
+55   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4'
+71   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4' O5'
+8   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4' O5' OP1 OP2
+57   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4' O5' OP1 OP2 OP3 P  
+43   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4' O5' OP1 OP2 P  
+134   U  C1' C2  C2' C3' C4  C4' C5  C6  N1  N3  O2  O2' O3' O4  O4'
+154   U  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2
+151   U  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2 P  
+167   U  O5' OP1 OP2
+131   U  P  
+178   U  P   P  

@@ -1,0 +1,5962 @@
+=head2 Wed Feb 24 09:18:07 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:18:08 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:18:09 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:18:09 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:22:52 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:33:11 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:33:11 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:33:11 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:33:12 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:33:12 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:38:49 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:38:49 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:38:49 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:38:50 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:38:50 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:43:41 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:43:41 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:43:41 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:43:42 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 09:43:42 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:22:38 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:22:39 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:22:39 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:22:39 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:22:40 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:23:15 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:23:15 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:23:16 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:23:16 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:23:16 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:24:03 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:24:03 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:24:04 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:24:04 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 10:24:04 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:32:20 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:32:20 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:32:21 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:32:21 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:32:22 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:46:23 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:46:24 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:46:24 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:46:25 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:46:25 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:48:27 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:48:28 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:48:28 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:48:29 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:48:29 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:50:17 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:50:17 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:50:18 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:50:19 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:50:19 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:10 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:10 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:11 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:12 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:12 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:39 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:39 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:40 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:40 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 11:59:41 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:00:12 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:00:13 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:00:13 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:00:14 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:00:14 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:31 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:31 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:32 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:32 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:33 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:47 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:47 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:48 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:48 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:03:49 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:04:45 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:04:46 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:04:46 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:04:47 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:04:47 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:08:28 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:08:28 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:08:29 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:08:29 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:08:30 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:11 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:11 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:12 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:12 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:13 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:47 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:47 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:48 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:48 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:10:49 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:12:10 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:12:11 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:12:11 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:12:12 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:12:12 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:18:36 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:18:36 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:18:37 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:18:37 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:18:38 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:19:24 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:19:25 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:19:25 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:19:26 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:19:26 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:22:51 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:22:51 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:22:52 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:22:52 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:22:53 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:23:58 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:23:59 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:23:59 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:24:00 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:24:00 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:25:33 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:25:34 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:25:34 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:25:35 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:25:35 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:28:03 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:28:03 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:28:04 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:28:04 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:28:05 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:32:34 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:32:34 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:32:35 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:32:35 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 12:32:36 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 13:59:33 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 13:59:34 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 13:59:34 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 13:59:35 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 13:59:35 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:04:01 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:04:02 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:04:02 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:04:02 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:04:03 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:09 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:09 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:10 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:10 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:11 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:50 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:51 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:51 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:52 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:09:52 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:11:34 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:11:34 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:11:35 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:11:35 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:11:36 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:14:20 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:14:21 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:14:21 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:14:21 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:14:22 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:15:03 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:15:03 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:15:04 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:15:04 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:15:05 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:16:27 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:16:27 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:16:28 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:16:28 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:16:29 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:18:32 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:18:32 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:18:33 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:18:33 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:18:34 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:22:47 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:22:48 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:22:48 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:22:49 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:22:49 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:26:11 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:26:11 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:26:12 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:26:12 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Feb 24 15:26:13 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:01:25 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:01:26 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:01:27 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:01:27 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:01:28 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:16:02 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:16:02 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:16:03 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:16:03 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:16:04 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:23:25 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:23:26 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:23:26 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:23:27 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:23:27 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:18 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:19 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:20 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:20 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:21 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:50 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:50 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:51 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:51 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:29:52 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:30:13 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:30:14 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:30:14 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:30:15 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:30:15 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:36:40 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:36:41 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:36:41 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:36:42 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Feb 25 18:36:42 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 09:32:37 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 09:32:37 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 09:32:38 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 09:32:39 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 09:32:39 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:18:08 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:18:09 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:18:10 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:18:11 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:18:11 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:19:54 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:19:54 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:19:55 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:19:55 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:19:56 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:33:03 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:33:04 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:33:04 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:33:05 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 14:33:05 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 16:45:56 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 16:45:56 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 16:45:58 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 16:45:59 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 16:46:00 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:04:22 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:04:23 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:04:23 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:04:24 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:04:24 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:05:15 2010: C<Module> L<bida::pdb|bida::pdb>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:05:17 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:05:17 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:05:18 2010: C<Module> L<bida::pdb::residue|bida::pdb::residue>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Feb 26 17:05:19 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Mar  1 14:03:28 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Mar  1 14:03:28 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Mar  1 14:03:29 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Mar  3 15:31:10 2010: C<Module> L<bida::pdb::model|bida::pdb::model>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Mar  3 15:31:11 2010: C<Module> L<bida::pdb::chain|bida::pdb::chain>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Mar  3 15:31:12 2010: C<Module> L<bida::pdb::atom|bida::pdb::atom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/m003206/projects/RNA_Tools/pdb/lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

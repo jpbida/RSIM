@@ -1,0 +1,4 @@
+pdb2pov 
+-----------------------------------------------------------
+
+Converts a pdb file into a povray script for rendering. An example command for calling povray is given in pov_script.sh. The command to convert a pdb file into pdb0.pdb to pdbN.pdb where 0..N are the number of models in the pdb file. Each output file is a povray script that can be used in povray to generate RNA 3D graphics pdb2pov.sh

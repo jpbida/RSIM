@@ -1,0 +1,18 @@
+Development of the perl module
+############################################################################
+Use install.sh to compile all perl modules to the temp development library
+Add the path to perl's INC
+
+export PERL5LIB=/home/m003206/projects/RNA_Tools/pdb/lib/
+
+
+SWIG to add C++/C functions to perl module
+############################################################################ 
+
+
+
+1) To get the linking and included files from perl use the following
+/usr/bin/perl -MExtUtils::Embed -e ldopts 
+/usr/bin/perl -MExtUtils::Embed -e ccopts 
+
+

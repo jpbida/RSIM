@@ -1,0 +1,6 @@
+Revision history for Perl extension bida::pdb::residue.
+
+0.01  Wed Feb 24 09:08:27 2010
+	- original version; created by h2xs 1.23 with options
+		-X -n bida::pdb::residue
+

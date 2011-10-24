@@ -1,0 +1,200 @@
+1  DG  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O3' O4' O5' O6 
+2  DT  C1' C2  C2' C3' C4  C4' C5  C5' C6  C7  N1  N3  O2  O3' O4  O4' O5' OP1 OP2
+3  DC  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  N4  O2  O3' O4' O5' OP1 OP2
+4  DA  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O3' O4' O5' OP1 OP2
+5  DG  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O3' O4' O5' O6  OP1 OP2
+6   C  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  N4  O2  O2' O3' O4'
+7   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O2' O3' O4' O5' OP1 OP2
+8   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4' O5' OP1 OP2
+9   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6  OP1 OP2
+10   C  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  N4  O2  O2' O3' O4' O5' OP1 OP2
+11   C  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  N4  O2  O2' O3' O4' O5'
+12   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6 
+13   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O6 
+14   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6  OP1 OP2 OP3 P  
+15   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6  OP1 OP2 P  
+16 MET  C   CA  CB  CE  CG  O   SD 
+17 GLN  C   CA  CB  CD  CG  NE2 O   OE1
+18 LYS  C   CA  CB  CD  CE  CG  NZ  O  
+19 GLY  C   CA  O  
+20 ASN  C   CA  CB  CG  ND2 O   OD1
+21 PHE  C   CA  CB  CD1 CD2 CE1 CE2 CG  CZ  O  
+22 ARG  C   CA  CB  CD  CG  CZ  NE  O  
+23 THR  C   CA  CB  CG2 O   OG1
+24 VAL  C   CA  CB  CG1 CG2 O  
+25 CYS  C   CA  CB  O   SG 
+26 GLU  C   CA  CB  CD  CG  O   OE1 OE2
+27 HIS  C   CA  CB  CD2 CE1 CG  ND1 NE2 O  
+28 ILE  C   CA  CB  CD1 CG1 CG2 O  
+29 ALA  C   CA  CB  O  
+30 PRO  C   CA  CB  CD  CG  O  
+31 TRP  C   CA  CB  CD1 CD2 CE2 CE3 CG  CZ2 CZ3 NE1 O  
+32 ASP  C   CA  CB  CG  O   OD1 OD2
+33 THR  C   CA  CB  CG2 N   O   OG1
+34 SER  C   CA  CB  O   OG 
+35 SER  C   CA  CB  CB  O   OG  OG 
+36 TYR  C   CA  CB  CD1 CD2 CE1 CE2 CG  CZ  O  
+37 LEU  C   CA  CB  CD1 CD2 CG  O  
+38 ARG  C   CA  CB  CB  CD  CD  CG  CG  CZ  CZ  NE  NE  O  
+39 THR  C   CA  CB  CB  CG2 CG2 O   OG1 OG1
+40 CYS  C   CA  CB  CB  O   SG  SG 
+41 ASN  C   CA  CB  CG  ND2 O   OD1 OXT
+42   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O2' O3' O4' O5' OP1 OP2 P  
+43   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4' O5' OP1 OP2 P  
+44 THR  C   CA  CB  CG2 O   OG1 OXT
+45 GLN  C   CA  CB  O  
+46 LYS  C   CA  CB  O  
+47 ARG  C   CA  CB  O  
+48 LYS  C   CA  CB  CG  O  
+49 GLY  C   CA  O   OXT
+50  DC  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  N4  O2  O3' O4' O5'
+51   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O2' O3' O4' O5'
+52 PHE  C   CA  CB  CD1 CD2 CE1 CE2 CG  CZ  O   OXT
+53 ALA  C   CA  CB  N   O  
+54 TYR  C   CA  CB  CD1 CD2 CE1 CE2 CG  CZ  O   OXT
+55   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4'
+56   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O2' O3' O4'
+57   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4' O5' OP1 OP2 OP3 P  
+58 PRO  C   CA  CB  CD  CG  O   OXT
+59 VAL  C   CA  CB  CG1 CG2 O   OXT
+60 GLU  C   CA  CB  CD  CG  O   OE1 OE2 OXT
+61 ALA  C   CA  CB  O   OXT
+62 ARG  C   CA  CB  CD  CG  CZ  NE  O   OXT
+63 SER  C   CA  CB  N   O   OG 
+64 LEU  C   C   CA  CA  CB  CB  CD1 CD1 CD2 CD2 CG  CG  N   O   O  
+65 GLY  C   C   CA  CA  N   O   O  
+66 THR  C   C   CA  CA  CB  CB  CG2 CG2 N   O   O   OG1 OG1
+67 ILE  C   C   CA  CA  CB  CB  CD1 CD1 CG1 CG1 CG2 CG2 N   O   O  
+68 PRO  C   C   CA  CA  CB  CB  CD  CD  CG  CG  N   O   O  
+69 GLN  C   C   CA  CA  CB  CB  CD  CD  CG  CG  N   NE2 NE2 O   O   OE1 OE1
+70  DG  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O3' O4' O6 
+71   U  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  O2  O2' O3' O4  O4' O5'
+72 ILE  C   CA  CB  CD1 CG1 CG2 O   OXT
+73 LYS  C   CA  CB  CD  CE  CG  NZ  O   OXT
+74  DA  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O3' O4' O5'
+75 VAL  C   CA  CB  CG1 CG1 CG2 CG2 O  
+76 ASP  C   CA  CB  CG  CG  O   OD1 OD1 OD2 OD2
+77 ARG  C   CA  CB  CD  CD  CG  CG  CZ  CZ  NE  NE  O  
+78 SER  C   CA  CB  O   OG  OG 
+79 ASP  C   CA  CB  O  
+80 GLU  C   CA  CB  O  
+81 ASN  C   CA  CB  O  
+82 LEU  C   CA  CB  O  
+83 LYS  C   CA  CB  CD  CE  CG  N   NZ  O  
+84 HIS  C   C   CA  CA  CB  CB  CD2 CD2 CE1 CE1 CG  CG  N   ND1 ND1 NE2 NE2 O   O  
+85  DT  C1' C2  C2' C3' C4  C4' C5  C5' C6  C7  N1  N3  O2  O4  O4' O5' OP1 OP2
+86   A  O5' OP1 OP2
+87 MET  C   CA  CB  CE  CG  N   O   SD 
+88 HIS  C   CA  CB  CB  CD2 CD2 CE1 CE1 CG  CG  ND1 ND1 NE2 NE2 O  
+89 SER  C   C   CA  CA  CB  CB  N   O   O   OG  OG 
+90 SER  C   C   CA  CA  CB  CB  N   O   O   OG  OG  OXT OXT
+91 LEU  C   CA  CB  CB  CD1 CD1 CD2 CD2 CG  CG  O  
+92 LYS  C   CA  CB  CB  CD  CD  CE  CE  CG  CG  NZ  NZ  O  
+93 ALA  C   C   CA  CA  CB  CB  N   O   O  
+94 GLN  C   CA  CB  CB  CD  CD  CG  CG  NE2 NE2 O   OE1 OE1
+95 SER  C   CA  CB  O   OG  OXT
+96 MET  C   C   CA  CA  CB  CB  CE  CE  CG  CG  N   O   O   SD  SD 
+97   A  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  C8  N1  N1  N3  N3  N6  N6  N7  N7  N9  N9  O2' O2' O3' O3' O4' O4' O5' O5' OP1 OP1 OP2 OP2 P  
+98   G  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  C8  N1  N1  N2  N2  N3  N3  N7  N7  N9  N9  O2' O2' O3' O3' O4' O4' O5' O5' O6  O6  OP1 OP1 OP2 OP2 P  
+99 ARG  C   C   CA  CA  CB  CB  CD  CD  CG  CG  CZ  CZ  N   NE  NE  O   O  
+100 VAL  C   CA  CB  O  
+101   N  C1' C2' C3' C4' C5' O2' O3' O4' O5' P  
+102   N  C1' C2' C3' C4' C5' O2' O3' O4' O5'
+103   N  C1' C2' C3' C4' C5' O2' O3' O4'
+104   N  C1' C2' C3' C4' C5' O2' O4' O5'
+105   N  C1' C2' O2' O3'
+106   N  C1' C2' C3' C4' O2' O3' O4'
+107 ASN  CA 
+108 LEU  CA 
+109 GLU  CA 
+110 VAL  CA 
+111 ALA  CA 
+112 LYS  CA 
+113 GLY  CA 
+114 ARG  CA 
+115 PHE  CA 
+116 ASP  CA 
+117 HIS  CA 
+118 PRO  CA 
+119 THR  CA 
+120 ILE  CA 
+121 SER  CA 
+122 GLN  CA 
+123 MET  CA 
+124 CYS  CA 
+125 TYR  CA 
+126 TRP  CA 
+127   G  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N2  N3  N7  N9  O2' O3' O4' O5' O6  P  
+128 PRO  C   CA  CB  CD  CG  N   O  
+129   C  P  
+130   A  P  
+131   U  P  
+132   G  P  
+133 MET  C   CA  CB  O  
+134   U  C1' C2  C2' C3' C4  C4' C5  C6  N1  N3  O2  O2' O3' O4  O4'
+135   N  P  
+136 UNK  CA 
+137   A  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O3' O4' O5' OP1 OP2
+138  DC  C1' C2  C2' C3' C4  C4' C5  C5' C6  N1  N3  N4  O2  O3' O4'
+139 LEU  C   CA  CB  CD1 CD2 CG  O   OXT
+140 GLN  C   CA  O  
+141   I  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N7  N9  O2' O3' O4' O5' O6  OP1 OP2
+142 MET  C   CA  CB  CE  CG  O   OXT SD 
+143 HIS  C   CA  CB  CD2 CE1 CG  N   ND1 NE2 O  
+144   U  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  N1  N1  N3  N3  N6  N7  N9  O2  O2' O2' O3' O3' O4  O4' O4' O5' O5' OP1 OP1 OP2 OP2 P  
+145   U  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  N1  N1  N2  N3  N3  N7  N9  O2  O2' O2' O3' O3' O4  O4' O4' O5' O5' O6  OP1 OP1 OP2 OP2 P  
+146   C  C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C2  C2  C2  C2  C2  C2  C2  C2  C2  C2  C2  C2  C2  C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C4  C4  C4  C4  C4  C4  C4  C4  C4  C4  C4  C4  C4  C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C5  C5  C5  C5  C5  C5  C5  C5  C5  C5  C5  C5  C5  C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C6  C6  C6  C6  C6  C6  C6  C6  C6  C6  C6  C6  C6  C8  C8  C8  C8  C8  N1  N1  N1  N1  N1  N1  N1  N1  N1  N1  N1  N1  N1  N2  N2  N2  N2  N2  N3  N3  N3  N3  N3  N3  N3  N3  N3  N3  N3  N3  N3  N4  N4  N4  N4  N7  N7  N7  N7  N7  N9  N9  N9  N9  N9  O2  O2  O2  O2  O2  O2  O2  O2  O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O4  O4  O4  O4  O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O6  O6  O6  O6  O6  OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 P   P   P   P   P   P   P   P   P   P   P   P  
+147   C  C1' C1' C1' C1' C1' C2  C2  C2  C2  C2  C2' C2' C2' C2' C2' C3' C3' C3' C3' C3' C4  C4  C4  C4  C4  C4' C4' C4' C4' C4' C5  C5  C5  C5  C5  C5' C5' C5' C5' C5' C6  C6  C6  C6  C6  C8  C8  C8  N1  N1  N1  N1  N1  N2  N2  N3  N3  N3  N3  N3  N4  N4  N6  N7  N7  N7  N9  N9  N9  O2  O2  O2' O2' O2' O2' O2' O3' O3' O3' O3' O3' O4' O4' O4' O4' O4' O5' O5' O5' O5' O5' O6  O6  OP1 OP1 OP1 OP1 OP1 OP2 OP2 OP2 OP2 OP2 P   P   P   P  
+148   G  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  C8  N1  N1  N2  N3  N3  N4  N7  N9  O2  O2' O2' O3' O3' O4' O4' O5' O5' O6  OP1 OP1 OP2 OP2 P  
+149 TRP  C   CA  CB  CD1 CD2 CE2 CE3 CG  CZ2 CZ3 NE1 O   OXT
+150 THR  C   CA  CB  O  
+151   U  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2 P  
+152   G  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2
+153   A  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2
+154   U  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2
+155   C  C1' C2' C3' C4' C5' O2' O3' O4' O5' OP1 OP2
+156 PRO  C   CA  CB  O  
+157 SER  C   CA  CB  O  
+158 TYR  C   CA  CB  O  
+159 ILE  C   CA  CB  O  
+160 PHE  C   CA  CB  O  
+161 HIS  C   CA  CB  O  
+162 TRP  C   CA  CB  O  
+163 CYS  C   CA  CB  O  
+164 UNK  C   CA  CB  O  
+165 UNK  C   CA  O  
+166 GLN  C   CA  CB  CD  CG  NE2 O   OE1 OXT
+167   U  O5' OP1 OP2
+168   C  P   P   P   P   P   P  
+169   G  P   P   P   P   P   P  
+170   G  P   P  
+171   C  P   P   P  
+172   A  P   P   P  
+173   C  P   P  
+174   A  P   P  
+175   A  P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P  
+176   G  P   P   P  
+177   G  P   P   P   P   P   P   P  
+178   U  P   P  
+179 VAL  C   CA  CB  CG1 CG2 N   O  
+180 MET  C   CA  CB  CB  CE  CE  CG  CG  O   SD  SD 
+181 ASN  C   CA  CB  CG  N   ND2 O   OD1
+182 ASP  C   CA  CB  CG  O   OD1 OD2 OXT
+183   C  C1' C1' C1' C2  C2  C2  C2' C2' C2' C3' C3' C3' C4  C4  C4  C4' C4' C4' C5  C5  C5  C5' C5' C5' C6  C6  C6  C8  N1  N1  N1  N3  N3  N3  N4  N4  N6  N7  N9  O2  O2  O2' O2' O2' O3' O3' O3' O4' O4' O4' O5' O5' O5' OP1 OP1 OP1 OP2 OP2 OP2 P   P  
+184   C  C1' C1' C1' C1' C1' C1' C1' C1' C1' C1' C2  C2  C2  C2  C2  C2  C2  C2  C2  C2' C2' C2' C2' C2' C2' C2' C2' C2' C2' C3' C3' C3' C3' C3' C3' C3' C3' C3' C3' C4  C4  C4  C4  C4  C4  C4  C4  C4  C4' C4' C4' C4' C4' C4' C4' C4' C4' C4' C5  C5  C5  C5  C5  C5  C5  C5  C5  C5' C5' C5' C5' C5' C5' C5' C5' C5' C5' C6  C6  C6  C6  C6  C6  C6  C6  C6  C8  C8  C8  N1  N1  N1  N1  N1  N1  N1  N1  N1  N2  N2  N3  N3  N3  N3  N3  N3  N3  N3  N3  N4  N4  N4  N6  N7  N7  N7  N9  N9  N9  O2  O2  O2  O2  O2  O2  O2' O2' O2' O2' O2' O2' O2' O2' O2' O2' O3' O3' O3' O3' O3' O3' O3' O3' O3' O3' O4  O4  O4  O4' O4' O4' O4' O4' O4' O4' O4' O4' O4' O5' O5' O5' O5' O5' O5' O5' O5' O5' O5' O6  O6  OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP1 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 OP2 P   P   P   P   P   P   P   P   P  
+185  DC  O5' OP1 OP2
+186 LEU  CA  CB  CD1 CD2 CG 
+187   C  C1' C1' C2  C2  C2' C2' C3' C3' C4  C4  C4' C4' C5  C5  C5' C5' C6  C6  N1  N1  N3  N3  N4  N4  O2  O2  O2' O2' O3' O3' O4' O4' O5' O5' OP1 OP1 OP2 OP2 P  
+188 THR  C   CA  CB  N   O  
+189  DA  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O3' O4'
+190 CYS  C   CA  CB  O   OXT SG 
+191  DA  C1' C2  C2' C3' C4  C4' C5  C5' C6  C8  N1  N3  N6  N7  N9  O3' O4' O5' OP1 OP2 OP3 P  
+192 VAL  C   CA  O  
+193 THR  C   CA  O  
+194 PRO  C   CA  CD  CG  O  
+195 HIS  C   CA  CB  CD2 CE1 CG  ND1 NE2 O   OXT
+196 GLN  C   CA  CB  CG  O  
+197 GLU  C   CA  CB  CG  O  
+198 ASN  C   C   CA  CA  CB  CB  CG  CG  N   ND2 ND2 O   O   OD1 OD1
+199 LYS  C   CA  CB  CD  CG  O  
+200 VAL  C   C   CA  CA  CB  CB  CG1 CG1 CG2 CG2 N   O   O  

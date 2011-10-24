@@ -1,0 +1,9 @@
+pdb2fuzzy v1.0 
+--------------------------------------------------------
+pdb2fuzzy is an application that creates a CSV file containing. The example can be run with the script ./pdb2fuzzy.sh 
+
+pdb_id,model_id,pos1,pos2,face1,face2,hydrogen_bonds
+
+as columns. Where pos1 and pos2 are in a base-pairing interacting between face1(0=watson,1=hoogsten,2=sugar) of pos1 and face2 of pos2.
+
+

@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/bida-pdb-residue.t
+lib/bida/pdb/residue.pm

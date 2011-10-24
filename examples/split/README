@@ -1,0 +1,5 @@
+split v1.0
+-------------------------------------------------------
+
+Is used to split a multi-model PDB file into PDB files containing N models
+Run ./split.sh to see an example
