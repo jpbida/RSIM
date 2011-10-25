@@ -32,16 +32,18 @@ The RSIM code can be downloaded and built using the following commands.
 
    5.
 
-      Compile the applications by changing into the apps directory and using make.
+      Compile the applications by changing into the apps directory and using make. 
+      If the directory ./path_to_project/RSIM/bin doesn't exist you need to create it.
 
       cd RSIM/src
       make all
       cd RSIM/apps
       make all
 
-This will create a set of binary files in the /bin directory. A examples for each of the binaries are stored in the tests directory and can be used as a starting point for figuring out how to use the RSIM programs.
+      This will create a set of binary files in the /bin directory.
+   
 
-
-Then check out the examples in ./examples
+   6. 
+      Then check out the examples in ./examples
 
 
