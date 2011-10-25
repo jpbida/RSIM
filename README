@@ -1,12 +1,49 @@
 RSIMS - Is an RNA structure prediction and design C++ library
 
-The easiest way to get started is to compile the program with the following commands 
+RSIM is a C++ library for building RNA tertiary structures from a given set of secondary structure constraints. 
+It has been successfully compiled and run on Linux and Mac OSX operating systems. 
+The RSIM code can be downloaded and built using the following commands.
 
-cd ./src
-make all
-cd ../apps
-make all
+   1.
 
-Then check out the examples in ./examples
+      Install git
+   2.
+
+      Install the boost C++ library
+   3.
+
+      Clone the RSIM git repository
+
+      >cd /path_to_project
+      >git clone git://github.com/jpbida/RSIM.git
+
+      This should create a directory RSIM in the path_to_project director with the RSIM library in it. If you are having trouble at this point check the github documentation for downloading public repositories.
+   4.
+
+      If you did not install boost in /usr/include/boost edit the makefiles to point to the boost library
+
+      /path_to_project/rsim/src/makefile
+      /path_to_project/rsim/apps/makefile
+
+      Change the lines below to point to your boost installation
+
+      CPPFLAGS= -O3 -ffast-math -I /usr/include/boost
+      CPPFLAGS= -O3 -ffast-math -I /usr/include/boost -I ../src
+
+   5.
+
+      Compile the applications by changing into the apps directory and using make. 
+      If the directory ./path_to_project/RSIM/bin doesn't exist you need to create it.
+
+      cd RSIM/src
+      make all
+      cd RSIM/apps
+      make all
+
+      This will create a set of binary files in the /bin directory.
+   
+
+   6. 
+      Then check out the examples in ./examples
 
 
