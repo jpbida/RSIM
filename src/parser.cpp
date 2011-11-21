@@ -30,14 +30,14 @@ if(front.compare("M:")==0){
 int len=line.length()-2;
 string model=line.substr(2,len);
 strcpy(expr,model.c_str());
-//printf("Current Residue Model: \n%s\n",expr);
+printf("Current Residue Model: \n%s\n",expr);
 }
 
 if(front.compare("G:")==0){
 int len=line.length()-2;
 string model=line.substr(2,len);
 strcpy(gexpr,model.c_str());
-//printf("Current Global Model: \n%s\n",gexpr);
+printf("Current Global Model: \n%s\n",gexpr);
 }
 
 }
@@ -73,14 +73,14 @@ if(front.compare("M:")==0){
 int len=line.length()-2;
 string model=line.substr(2,len);
 strcpy(expr,model.c_str());
-//printf("Current Residue Model: \n%s\n",expr);
+printf("Current Residue Model: \n%s\n",expr);
 }
 
 if(front.compare("G:")==0){
 int len=line.length()-2;
 string model=line.substr(2,len);
 strcpy(gexpr,model.c_str());
-//printf("Current Global Model: \n%s\n",gexpr);
+printf("Current Global Model: \n%s\n",gexpr);
 }
 
 }

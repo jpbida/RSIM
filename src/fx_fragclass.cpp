@@ -1253,7 +1253,7 @@ y3=y2-y1;
 z3=z2-z1;
 
 dist=pow(x3,2)+pow(y3,2)+pow(z3,2);
-if(dist < 300){//set this to 144 to screen in helices
+if(dist < 144){//set this to 144 to screen in helices
 //Check pairwise distances of members in the group
 //Get fgi1.members and fgi2.members 
 int i1,i2;
@@ -1278,7 +1278,7 @@ y3=y2-y1;
 z3=z2-z1;
 dist=pow(x3,2)+pow(y3,2)+pow(z3,2);
 
-if(dist > 36 && dist < 256){
+if(dist > 36 && dist < 144){
 Matches * mat=new Matches();
 mat->frag1=fgs1[i1].id;
 mat->frag2=fgs2[i2].id;

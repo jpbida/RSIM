@@ -1,3 +1,4 @@
+// Montecarlo fractal kinetics simulator //
 #include <boost/lexical_cast.hpp>
 #include "algos.h"
 #include <algorithm>
@@ -898,7 +899,7 @@ full_atoms.push_back(0);
 
 //Loop through all the resiudes 
 string rname=pdb->models[0]->chains[0]->residues[resnums]->res_name;
-printf("Resname: '%s'",rname.c_str());
+//printf("Resname: '%s'",rname.c_str());
 if(rname.compare("  A")==0 || rname.compare("  G")==0){
 vector<float> c1 = pdb->models[0]->chains[0]->residues[resnums]->getAtom(" C1'"); 
 vector<float> c2 = pdb->models[0]->chains[0]->residues[resnums]->getAtom(" N9 "); 
@@ -3275,7 +3276,7 @@ if(mols[j]->seq=='C'){cur_pair=4;}
 }
 hydroVals->at(i)=mallprob;
 hpair->at(i)=cur_pair;
-printf("cur_pair: %d\n",cur_pair);
+//printf("cur_pair: %d\n",cur_pair);
 cur_pair=0;
 
 }
@@ -5513,7 +5514,7 @@ int a=0;
 for(int resnums=0;resnums < pdb->models[0]->chains[0]->residues.size(); resnums++){
 //Loop through all the resiudes 
 string rname=pdb->models[0]->chains[0]->residues[resnums]->res_name;
-printf("Resname: '%s'",rname.c_str());
+//printf("Resname: '%s'",rname.c_str());
 if(rname.compare("  A")==0 || rname.compare("  G")==0){
 vector<float> c1 = pdb->models[0]->chains[0]->residues[resnums]->getAtom(" C1'"); 
 vector<float> c2 = pdb->models[0]->chains[0]->residues[resnums]->getAtom(" N9 "); 
@@ -11025,12 +11026,7 @@ return success;
 
 */
 int Polymere::generalCon(std::pair<int,int>  gencons,float * hydro1){
-//Check out the flow diagram on in the documentation to understand what these cutoffs are for
-float zang_cutoff1=0.35;
-float zang_cutoff2=1.5;
-float zdist_lower=1.5;
-float zdist_upper=6;
-float xdist_cutoff=6;
+//Returns the constraint type that was found
 
 //ctype = -1 Look at all constraint types
 //ctype = 0-5 only consider the particular constraint
@@ -11095,12 +11091,12 @@ int conType=-2;
 if(params1[1] < 14){
 conType=-1;
 	//Planar Orientation
-	if(abs(params1[10]-PI)<zang_cutoff1 || abs(params1[10])<zang_cutoff1){
+	if(abs(params1[10]-PI)<0.35 || abs(params1[10])<0.35){
 	conType=0;
 //cis
 //	1 = z-axis oriented in same direction 
 //	0 = z-axis oriented in opposite directions 
-		if(abs(params1[10]-PI)<zang_cutoff1){cis=0;}else{cis=1;}
+		if(abs(params1[10]-PI)<0.35){cis=0;}else{cis=1;}
 //inward
 //	0 = z-axis are not pointed toward each other
 //	1 = z-axis are pointed toward each other
@@ -11109,13 +11105,21 @@ conType=-1;
 			if(params1[8] < 0 && params2[8] < 0){inward = 0;}
 		}
 //If z distance is within [2A,6A] and dx < 6A 
-if(abs(params1[8])>zdist_lower && abs(params2[8])>zdist_lower && abs(params1[8])<zdist_upper && abs(params2[8])<xdist_cutoff && params1[6]<xdist_cutoff){
+if(abs(params1[8])>1.5 && abs(params2[8])>1.5 && abs(params1[8])<6 && abs(params2[8])<6 && params1[6]<6){
 //Inward stacking
-if(cis==0 && inward==1){conType=19;}
+if(cis==0 && inward==1){conType=19;
+if(params1[9]==params2[9]){*hydro1=0;}
+}
 //Outward stacking
-if(cis==0 && inward==0){conType=20;}
+if(cis==0 && inward==0){conType=20;
+if(params1[9]==params2[9]){*hydro1=0;}
+
+}
 //Upward stacking
-if(cis==1){ conType=21;}
+if(cis==1){ conType=21;*hydro1=0;
+if(params1[9]==params2[9]){*hydro1=0;}
+
+}
 }else{
 	//check for hydrogen bonding
 std::pair<int,int> faces;
@@ -11128,7 +11132,7 @@ if(faces.first==-1 || faces.second==-1){
 conType=0;//planar with no hydroType
 }else{
 
-if(abs(params2[8])<zdist_lower && abs(params1[8])<zdist_lower){
+if(abs(params2[8])<1.5 && abs(params1[8])<1.5){
 //Set minimal requirements for each type of interaction
 if(faces.first==0 && faces.second==0){conType=1;}
 if(faces.first==0 && faces.second==1){conType=2;}
@@ -11146,12 +11150,12 @@ conType=0;
 }
 }
 }else{
-	if(abs(params1[10]-PI)<zang_cutoff2 || abs(params2[10])<zang_cutoff2){
+	if(abs(params1[10]-PI)<1.5 || abs(params2[10])<1.5){
 	conType=0;
 //cis
 //	1 = z-axis oriented in same direction 
 //	0 = z-axis oriented in opposite directions 
-		if(abs(params1[10]-PI)<zang_cutoff2){cis=0;}else{cis=1;}
+		if(abs(params1[10]-PI)<1.5){cis=0;}else{cis=1;}
 //inward
 //	0 = z-axis are not pointed toward each other
 //	1 = z-axis are pointed toward each other
@@ -11160,7 +11164,7 @@ conType=0;
 			if(params1[8] < 0 && params2[8] < 0){inward = 0;}
 		}
 //If z distance is within [2A,6A] and dx < 6A 
-if(abs(params1[8])>zdist_lower && abs(params2[8])>zdist_lower && abs(params1[8])<zdist_upper && abs(params2[8])<zdist_upper && params1[6]<xdist_cutoff){
+if(abs(params1[8])>1.5 && abs(params2[8])>1.5 && abs(params1[8])<6 && abs(params2[8])<6 && params1[6]<6){
 //Inward stacking
 if(cis==0 && inward==1){conType=219;
 if(params1[9]==params2[9]){*hydro1=0;}
@@ -11183,7 +11187,11 @@ faces.second=-1;
 float hydro=this->hydroType(gencons.first,gencons.second,&faces);
 *hydro1 = hydro;
 //printf("%8.3f: %d, %d\n",hydro,faces.first,faces.second);
-conType=0;
+if(faces.first==-1 || faces.second==-1){
+conType=0;//planar with no hydroType
+}else{
+
+if(abs(params2[8])<3 && abs(params1[8])<3){
 //Set minimal requirements for each type of interaction
 if(faces.first==0 && faces.second==0){conType=301;}
 if(faces.first==0 && faces.second==1){conType=302;}
@@ -11194,64 +11202,24 @@ if(faces.first==1 && faces.second==2){conType=306;}
 if(faces.first==2 && faces.second==0){conType=307;}
 if(faces.first==2 && faces.second==1){conType=308;}
 if(faces.first==2 && faces.second==2){conType=309;}
-
-if(cis==1 & conType > 0){conType=conType+9;}
-
-}
-}
-
-
-
-
-}
-//If conType <=0 check to see if it meets crude conditions and set to -7
-int illegals=0;
-if(params1[1] < 11){
-	//coplanar1
-	if(params1[1] > 8){
-	//coplanar
-	if(params1[4] > -0.5 || params1[4] < -1.5){illegals++;}
-	if(params1[3] > -0.5 || params1[3] < -1.5){illegals++;}
-	if(params1[2] > 2.0 || params1[2] < 1.2){illegals++;}
-	if(params1[5] > 2.0 || params1[5] < 1.2){illegals++;}
-	if(params1[8] > 1.5 || params1[8] < -1.5){illegals++;}
-	}else{
-	if(params1[1] > 5){
-	if(params1[4] > 1 || params1[4] < -1.5){illegals++;}
-	if(params1[3] > -0.5 || params1[3] < -1.5){illegals++;}
-	if(params1[2] > 2.0 || params1[2] < 1.2){illegals++;}
-	if(params1[5] > 2.0 || params1[5] < 1.2){illegals++;}
-	if(params1[8] > 1.5 || params1[8] < -1.5){illegals++;}
-	}else{
-	//stacked only stack if they are purine/purine combos or py/py
-	if(params1[9]==1 || params1[9]==2){
-	if(params1[8] < 1.5 && params1[8] > -1.5){illegals++;}
-	if(abs(params1[2]-params1[5]) > 0.15){illegals++;}
+if(cis==1){conType=conType+9;}
 }else{
-illegals++;
-}
-	}	
-	}
-}else{
-illegals=illegals+2;
-}
-if(illegals>0){
 conType=0;
-}else{
-conType=400;
+}
+}
+}
 }
 
+
+
+
 }
-
-
-
-
+}
 return conType;
 }
 
 int Polymere::generalCons(std::vector<std::pair<std::pair<int,int> ,int> > gencons,float * tot_hydro){
 //loops through all constraints to determine if they match
-
 int allgood=1;
 float hydro1;
 for(int g = 0; g < gencons.size(); g++){
@@ -11264,7 +11232,6 @@ if(gencons[g].second==-9 && (conType < 1 || conType > 18)){allgood=0;}
 if(gencons[g].second==-8 && (conType < 1)){allgood=0;}
 if(gencons[g].second==-8 && (conType > 18 && conType < 301)){allgood=0;}
 if(gencons[g].second==-8 && (conType > 318)){allgood=0;}
-if(gencons[g].second==-7 && (conType < 1)){allgood=0;}
 if(gencons[g].second>0 && gencons[g].second!=conType){allgood=0;}
 
 }

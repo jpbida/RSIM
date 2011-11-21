@@ -193,6 +193,8 @@ config.readInto(sequence,"sequence");
 config.readInto(master_struct,"native");
 config.readInto(pdb_ids,"pdb_ids");
 config.readInto(starting_struct,"starting_pdb");
+config.readInto(modelfile,"modelfile");
+config.readInto(edge_file,"edge_file");
 config.readInto(struct_pos,"model_number");
 config.readInto(con_start,"con_start");
 

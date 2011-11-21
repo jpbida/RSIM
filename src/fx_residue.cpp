@@ -177,7 +177,7 @@ return out;
 }
 }
 if(tot==0){
-printf("Missing: %s\n",aname.c_str());
+//printf("Missing: %s\n",aname.c_str());
 }
 return out;
 }

@@ -30,6 +30,8 @@ string sequence;
 string master_struct;
 string pdb_ids;
 string starting_struct;
+string modelfile;
+string edge_file;
 
 
 //Simulation parameters
