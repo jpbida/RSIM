@@ -1,0 +1,49 @@
+This changes the residue names 
+RMAP   rG  G
+RMAP   rU  U
+RMAP   rC  C
+RMAP   rA  A
+RMAP  G    G
+RMAP  U    U
+RMAP  C    C
+RMAP  A    A
+RMAP   G   G
+RMAP   U   U
+RMAP   C   C
+RMAP   A   A
+RMAP    G  G
+RMAP    U  U
+RMAP    C  C
+RMAP    A  A
+
+
+
+
+
+
+This changes the atom names
+//Backbone 
+AMAP   P   P  
+AMAP   O1P OP1
+AMAP   O2P OP2
+AMAP   O5* O5'
+AMAP   C5* C5'
+AMAP   C4* C4'
+AMAP   O4* O4'
+AMAP   C3* C3'
+AMAP   O3* O3'
+AMAP   C2* C2'
+AMAP   O2* O2'
+AMAP   C1* C1'
+
+//Guanine Specific
+AMAP  1H2  H21
+AMAP  2H2  H22
+
+//Cytosine Specific
+AMAP  2H4  H42
+AMAP  1H4  H41
+
+//Adenosine Specific
+AMAP  2H6  H62
+AMAP  1H6  H61

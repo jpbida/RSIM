@@ -1,19 +1,3 @@
-/*This file is part of RSIM.
-
-    RSIM is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    RSIM is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-    You should have received a copy of the GNU General Public License
-    along with RSIM.  If not, see <http://www.gnu.org/licenses/>.
-
-*/
-// Montecarlo fractal kinetics simulator //
 #include <boost/lexical_cast.hpp>
 #include "algos.h"
 #include <algorithm>
@@ -148,6 +132,9 @@ float rmsd(float *v1, float *v2, int N, float *mtx)
   memcpy(temp2, v2, N * sizeof(float) * 3);
   for(i=0;i<N;i++)
     mulpt(&tmtx, temp2 + i * 3);
+//set v2 to temp2
+  memcpy(v2, temp2, N * sizeof(float) * 3);
+
   answer = alignedrmsd(v1, temp2, N);
   free(temp1);
   free(temp2);
@@ -914,7 +901,7 @@ full_atoms.push_back(0);
 
 //Loop through all the resiudes 
 string rname=pdb->models[0]->chains[0]->residues[resnums]->res_name;
-//printf("Resname: '%s'",rname.c_str());
+printf("Resname: '%s'",rname.c_str());
 if(rname.compare("  A")==0 || rname.compare("  G")==0){
 vector<float> c1 = pdb->models[0]->chains[0]->residues[resnums]->getAtom(" C1'"); 
 vector<float> c2 = pdb->models[0]->chains[0]->residues[resnums]->getAtom(" N9 "); 
@@ -1045,6 +1032,118 @@ delete pdb->models[m];
 ////////////////
 delete pdb;
 }
+
+void Polymere::alignHelix(Polymere* p2,std::vector<int> helix1, std::vector<int> helix2){
+//helix1 matches the Polymere object calling alignHelix
+//helix2 matches the p2 Polymere object
+
+//Check the helix1 is a helix
+//Check that the size of helix1 is the same as the size of helix2
+
+/*
+The object of alignResidues is find the tranformation matrix 
+that minimizes the root mean square distance between the coordinates 
+(mols[helix1[i]]->x,mols[helix1[i]]->y,mols[helix1[i]]->z) and (p2->mols[helix1[i]]->x,p2->mols[helix1[i]]->y,p2->mols[helix1[i]]->z)
+after identifying the transformation matrix the full_atom vector should be 
+transformed to refect the alingment.  An example is given below that 
+uses the rmsd function to align the coordinates
+*/
+
+float d;
+float *v1,*v2;
+float *mtx;
+v1=NULL;
+v2=NULL;
+mtx=NULL;
+mtx=(float*) malloc(16*sizeof(float));
+  v1 =(float*) malloc(num_mols * 9 * sizeof(float));
+  v2 =(float*) malloc(num_mols * 9 * sizeof(float));
+if(v1==NULL || v2==NULL || mtx==NULL){
+d=-1;
+cout << "Allocation Failed" << endl;
+}else{
+int i=0;
+for(int j=0; j<num_mols; j++){
+//if(p2->mols[j]->group==1 || p2->mols[j]->group==2){
+float x1 = (float)mols[i]->x;
+float y1 = (float)mols[i]->y;
+float z1 = (float)mols[i]->z;
+float xb1 = (float)mols[i]->bx;
+float yb1 = (float)mols[i]->by;
+float zb1 = (float)mols[i]->bz;
+float xb21 = (float)mols[i]->b2x;
+float yb21 = (float)mols[i]->b2y;
+float zb21 = (float)mols[i]->b2z;
+v1[i*9+0]=x1;
+v1[i*9+1]=y1;
+v1[i*9+2]=z1;
+v1[i*9+3]=xb1;
+v1[i*9+4]=yb1;
+v1[i*9+5]=zb1;
+v1[i*9+6]=xb21;
+v1[i*9+7]=yb21;
+v1[i*9+8]=zb21;
+
+float x2 =(float) p2->mols[i]->x;
+float y2 =(float) p2->mols[i]->y;
+float z2 =(float) p2->mols[i]->z;
+float xb2 = (float)p2->mols[i]->bx;
+float yb2 = (float)p2->mols[i]->by;
+float zb2 = (float)p2->mols[i]->bz;
+float xb22 = (float)p2->mols[i]->b2x;
+float yb22 = (float)p2->mols[i]->b2y;
+float zb22 = (float)p2->mols[i]->b2z;
+v2[i*9+0]=x2;
+v2[i*9+1]=y2;
+v2[i*9+2]=z2;
+v2[i*9+3]=xb2;
+v2[i*9+4]=yb2;
+v2[i*9+5]=zb2;
+v2[i*9+6]=xb22;
+v2[i*9+7]=yb22;
+v2[i*9+8]=zb22;
+i++;
+//}
+}
+//cout << "Groups Numbers: " << i << endl;
+d=rmsd(v1,v2,i,mtx);
+printf("%8.3f\n",d);
+//update vectors
+for(int j=0; j<num_mols; j++){
+p2->mols[j]->x=v2[j*9+0];
+p2->mols[j]->y=v2[j*9+1];
+p2->mols[j]->z=v2[j*9+2];
+p2->mols[j]->bx=v2[j*9+3];
+p2->mols[j]->by=v2[j*9+4];
+p2->mols[j]->bz=v2[j*9+5];
+p2->mols[j]->b2x=v2[j*9+6];
+p2->mols[j]->b2y=v2[j*9+7];
+p2->mols[j]->b2z=v2[j*9+8];
+
+mols[j]->x=v1[j*9+0];
+mols[j]->y=v1[j*9+1];
+mols[j]->z=v1[j*9+2];
+mols[j]->bx=v1[j*9+3];
+mols[j]->by=v1[j*9+4];
+mols[j]->bz=v1[j*9+5];
+mols[j]->b2x=v1[j*9+6];
+mols[j]->b2y=v1[j*9+7];
+mols[j]->b2z=v1[j*9+8];
+
+//printf("%8.3f %8.3f %8.3f, %8.3f %8.3f %8.3f\n",mols[j]->x, mols[j]->y, mols[j]->z, p2->mols[j]->x, p2->mols[j]->y, p2->mols[j]->z);
+}
+this->updateFull();
+p2->updateFull();  
+free(v1);
+  free(v2);
+free(mtx);
+}
+}
+
+
+
+
+
 
 
 void Polymere::clearMols(){
@@ -2348,6 +2447,7 @@ angz=angz-PI/2;
 rotateX(angz);
 }
 
+
 void Polymere::updateFull(){
 //Aligns each full atom backbone to the current virtual bond model
 
@@ -3291,7 +3391,7 @@ if(mols[j]->seq=='C'){cur_pair=4;}
 }
 hydroVals->at(i)=mallprob;
 hpair->at(i)=cur_pair;
-//printf("cur_pair: %d\n",cur_pair);
+printf("cur_pair: %d\n",cur_pair);
 cur_pair=0;
 
 }
@@ -5529,7 +5629,7 @@ int a=0;
 for(int resnums=0;resnums < pdb->models[0]->chains[0]->residues.size(); resnums++){
 //Loop through all the resiudes 
 string rname=pdb->models[0]->chains[0]->residues[resnums]->res_name;
-//printf("Resname: '%s'",rname.c_str());
+printf("Resname: '%s'",rname.c_str());
 if(rname.compare("  A")==0 || rname.compare("  G")==0){
 vector<float> c1 = pdb->models[0]->chains[0]->residues[resnums]->getAtom(" C1'"); 
 vector<float> c2 = pdb->models[0]->chains[0]->residues[resnums]->getAtom(" N9 "); 
@@ -8486,6 +8586,7 @@ return d;
 }
 
 
+
 float Polymere::rms(Polymere * p2){
 float d;
 float *v1,*v2;
@@ -8618,6 +8719,210 @@ rmsds->push_back(d);
 //printf("rmsdl: %8.3f\n",d);
 }
 }
+
+void Polymere::printVoro(){
+Residue * Aresidue = new Residue;
+// Set up the number of blocks that the container is divided into
+const int n_x=20,n_y=20,n_z=20;
+// Set the number of particles that are going to be randomly introduced
+int particle_nums=0;
+int i=0;
+        double x,y,z,rad;
+        // Create a container with the geometry given above, and make it
+        // non-periodic in each of the three coordinates. Allocate space for
+        // eight particles within each computational block
+
+        // Randomly add particles into the container
+double min_x=999;double max_x=-999;
+double min_y=999;double max_y=-999;
+double min_z=999;double max_z=-999;
+vector<double> xps;
+vector<double> yps;
+vector<double> zps;
+
+std::vector<int> res_ids;
+std::vector<int> res_types;
+std::vector<string> at_type;
+std::vector<int> rtype;
+for(int resn=0; resn<num_mols; resn++){
+int bpos = resn*81;
+if(mols[resn]->seq=='G'){
+rtype.push_back(1);
+for(int rn=0; rn < 27; rn++){
+res_ids.push_back(resn);
+if(rn < 12){res_types.push_back(-1);}else{res_types.push_back(1);}
+string aname(Aresidue->atomnames1[rn]);
+at_type.push_back(aname);
+//create an atom x y z atom_name chain  res_name
+int p1 = bpos+rn*3;
+int p2 = bpos+rn*3+1;
+int p3 = bpos+rn*3+2;
+particle_nums++;
+xps.push_back(full_atoms[p1]);
+yps.push_back(full_atoms[p2]);
+zps.push_back(full_atoms[p3]);
+
+if(min_x > full_atoms[p1]){min_x=full_atoms[p1];}
+if(min_y > full_atoms[p2]){min_y=full_atoms[p2];}
+if(min_z > full_atoms[p3]){min_z=full_atoms[p3];}
+
+if(max_x < full_atoms[p1]){max_x=full_atoms[p1];}
+if(max_y < full_atoms[p2]){max_y=full_atoms[p2];}
+if(max_z < full_atoms[p3]){max_z=full_atoms[p3];}
+
+}
+}else{
+if(mols[resn]->seq=='A'){
+rtype.push_back(2);
+for(int rn=0; rn < 26; rn++){
+res_ids.push_back(resn);
+if(rn < 12){res_types.push_back(-2);}else{res_types.push_back(2);}
+string aname(Aresidue->atomnames2[rn]);
+at_type.push_back(aname);
+//create an atom x y z atom_name chain  res_name
+int p1 = bpos+rn*3;
+int p2 = bpos+rn*3+1;
+int p3 = bpos+rn*3+2;
+
+particle_nums++;
+xps.push_back(full_atoms[p1]);
+yps.push_back(full_atoms[p2]);
+zps.push_back(full_atoms[p3]);
+
+if(min_x > full_atoms[p1]){min_x=full_atoms[p1];}
+if(min_y > full_atoms[p2]){min_y=full_atoms[p2];}
+if(min_z > full_atoms[p3]){min_z=full_atoms[p3];}
+
+if(max_x < full_atoms[p1]){max_x=full_atoms[p1];}
+if(max_y < full_atoms[p2]){max_y=full_atoms[p2];}
+if(max_z < full_atoms[p3]){max_z=full_atoms[p3];}
+}
+
+
+}else{
+if(mols[resn]->seq=='U'){
+rtype.push_back(3);
+for(int rn=0; rn < 23; rn++){
+res_ids.push_back(resn);
+if(rn < 12){res_types.push_back(-3);}else{res_types.push_back(3);}
+string aname(Aresidue->atomnames3[rn]);
+at_type.push_back(aname);
+//create an atom x y z atom_name chain  res_name
+int p1 = bpos+rn*3;
+int p2 = bpos+rn*3+1;
+int p3 = bpos+rn*3+2;
+
+particle_nums++;
+xps.push_back(full_atoms[p1]);
+yps.push_back(full_atoms[p2]);
+zps.push_back(full_atoms[p3]);
+
+if(min_x > full_atoms[p1]){min_x=full_atoms[p1];}
+if(min_y > full_atoms[p2]){min_y=full_atoms[p2];}
+if(min_z > full_atoms[p3]){min_z=full_atoms[p3];}
+
+if(max_x < full_atoms[p1]){max_x=full_atoms[p1];}
+if(max_y < full_atoms[p2]){max_y=full_atoms[p2];}
+if(max_z < full_atoms[p3]){max_z=full_atoms[p3];}
+}
+
+}else{
+if(mols[resn]->seq=='C'){
+rtype.push_back(4);
+for(int rn=0; rn < 24; rn++){
+res_ids.push_back(resn);
+if(rn < 12){res_types.push_back(-4);}else{res_types.push_back(4);}
+string aname(Aresidue->atomnames4[rn]);
+at_type.push_back(aname);
+//create an atom x y z atom_name chain  res_name
+int p1 = bpos+rn*3;
+int p2 = bpos+rn*3+1;
+int p3 = bpos+rn*3+2;
+
+particle_nums++;
+xps.push_back(full_atoms[p1]);
+yps.push_back(full_atoms[p2]);
+zps.push_back(full_atoms[p3]);
+
+
+if(min_x > full_atoms[p1]){min_x=full_atoms[p1];}
+if(min_y > full_atoms[p2]){min_y=full_atoms[p2];}
+if(min_z > full_atoms[p3]){min_z=full_atoms[p3];}
+
+if(max_x < full_atoms[p1]){max_x=full_atoms[p1];}
+if(max_y < full_atoms[p2]){max_y=full_atoms[p2];}
+if(max_z < full_atoms[p3]){max_z=full_atoms[p3];}
+}
+}else{
+}
+}
+}
+}
+
+}
+
+
+min_x = min_x -9;
+min_y = min_y -9;
+min_z = min_z -9;
+
+max_x = max_x +9;
+max_y = max_y +9;
+max_z = max_z +9;
+
+//Voro container needs to be a cube
+double minv = min_x;
+if(minv > min_y){minv=min_y;}
+if(minv > min_z){minv=min_z;}
+
+double maxv = max_x;
+if(maxv < max_y){maxv=max_y;}
+if(maxv < max_z){maxv=max_z;}
+
+
+const double x_min=minv;
+const double x_max=maxv;
+const double y_min=minv;
+const double y_max=maxv;
+const double z_min=minv;
+const double z_max=maxv;
+
+//printf("Ranges %8.3f - %8.3f : %8.3f - %8.3f : %8.3f - %8.3f\n",x_min,x_max,y_min,y_max,z_min,z_max);
+//printf("Atom Information\n");
+//for(int r=0; r<at_type.size(); r++){printf("%s:%d:%d\n",at_type[r].c_str(),res_types[r],res_ids[r]);}
+container_poly con(x_min,x_max,y_min,y_max,z_min,z_max,n_x,n_y,n_z,false,false,false,8);
+//Residues are split by backbone and base atoms
+for(int a = 0; a<at_type.size(); a++){
+double x = xps[a];
+double y = yps[a];
+double z = zps[a];
+double r=0.5;
+if (at_type[a].find("H",0) != string::npos){
+r=.31;
+}else{
+if (at_type[a].find("C",0) != string::npos){
+r=.73;
+}else{
+if (at_type[a].find("O",0) != string::npos){
+r=.66;
+}else{
+if (at_type[a].find("P",0) != string::npos){
+r=1.07;
+}else{
+if (at_type[a].find("N",0) != string::npos){
+r=0.71;
+}else{
+printf("Can't identify atom type: %s\n",at_type[a].c_str());
+}
+}
+}
+}
+}
+//printf("Adding: %8.3f %8.3f %8.3f %8.3f\n",x,y,z,r);
+con.put(a,x,y,z,r);
+}
+con.draw_cells_rgl("voro.out",&res_ids);
+}         
 
 void Polymere::localgraph(vector<int> * parent, vector<int> * child){
 Residue * Aresidue = new Residue;

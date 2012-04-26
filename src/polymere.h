@@ -42,6 +42,7 @@ int getResidueStart(int pos);
 
 void hydroVg(vector<float> * hydroVals,int movegroup);
 double rmsAllg(const Polymere * p2,int movegroup);
+void alignHelix(Polymere * p2,std::vector<int> helix1, std::vector<int> helix2);
 void copyOver(Polymere * pol2,int into_pos,int from_pos,int totlen);
 float monteCons(int nmax, int movegroup, const std::vector< Fragment *>  frags,Fragclass * dat,const Polymere * pol,std::vector< Fragatoms *> atoms,std::vector<Fragall *> batoms,std::vector<double> * dparams,int stype,std::vector< std::vector <std::pair<int,int> > > allcons,int sim_id,std::string out_prefix);
 std::vector<std::pair<int,int> > confMatch(std::vector< std::vector< std::pair<int,int> > >  confs);
@@ -195,6 +196,7 @@ void rotateZb(double ang, int pos);
 //float rmsd(float *v1, float *v2, int N, float *mtx);
 void localRMSD(vector<float> * rmsds,const Polymere * master,std::vector<int> * parent,std::vector<int> * child);
 void localgraph(std::vector<int> * parent, std::vector<int> * child);
+void printVoro();
 void clearMols();
 void rotateZf(double ang, int pos);
 void mixit(int nmax, int movegroup,const std::vector< Fragment *>  frags,Fragclass * dat,const Polymere * pol,std::vector<Fragatoms *> atoms,std::vector<Fragall *> batoms);
