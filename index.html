@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Rsim : RNA structure prediction program" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Rsim</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jpbida/RSIM">Fork Me on GitHub</a>
+
+          <h1 id="project_title">Rsim</h1>
+          <h2 id="project_tagline">RNA structure prediction program</h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/jpbida/RSIM/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/jpbida/RSIM/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>RSIMS - Is an RNA structure prediction and design C++ library</p>
+
+<p>RSIM is a C++ library for building RNA tertiary structures from a given set of secondary structure constraints. 
+It has been successfully compiled and run on Linux and Mac OSX operating systems. 
+The RSIM code can be downloaded and built using the following commands.</p>
+
+<p>1.</p>
+
+<pre><code>  Install git
+</code></pre>
+
+<p>2.</p>
+
+<pre><code>  Install the boost C++ library
+</code></pre>
+
+<p>3.</p>
+
+<pre><code>  Clone the RSIM git repository
+
+  &gt;cd /path_to_project
+  &gt;git clone git://github.com/jpbida/RSIM.git
+
+  This should create a directory RSIM in the path_to_project director with the RSIM library in it. If you are having trouble at this point check the github documentation for downloading public repositories.
+</code></pre>
+
+<p>4.</p>
+
+<pre><code>  If you did not install boost in /usr/include/boost edit the makefiles to point to the boost library
+
+  /path_to_project/rsim/src/makefile
+  /path_to_project/rsim/apps/makefile
+
+  Change the lines below to point to your boost installation
+
+  CPPFLAGS= -O3 -ffast-math -I /usr/include/boost
+  CPPFLAGS= -O3 -ffast-math -I /usr/include/boost -I ../src
+</code></pre>
+
+<p>5.</p>
+
+<pre><code>  Compile the applications by changing into the apps directory and using make. 
+  If the directory ./path_to_project/RSIM/bin doesn't exist you need to create it.
+
+  cd RSIM/src
+  make all
+  cd RSIM/apps
+  make all
+
+  This will create a set of binary files in the /bin directory.
+</code></pre>
+
+<ol>
+<li>
+  Then check out the examples in ./examples</li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Rsim maintained by <a href="https://github.com/jpbida">jpbida</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
