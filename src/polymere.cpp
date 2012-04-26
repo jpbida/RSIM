@@ -1034,7 +1034,7 @@ delete pdb;
 }
 
 void Polymere::alignHelix(Polymere* p2,std::vector<int> helix1, std::vector<int> helix2){
-//Jp's attempt at a solution to challenge 1
+//Jp's attempt at a solution to challenge 1 and create a pull request
 //helix1 matches the Polymere object calling alignHelix
 //helix2 matches the p2 Polymere object
 
