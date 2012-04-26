@@ -1034,7 +1034,112 @@ delete pdb;
 }
 
 void Polymere::alignHelix(Polymere* p2,std::vector<int> helix1, std::vector<int> helix2){
-//Challenge 1 Code goes here
+//Jp's attempt at a solution to challenge 1
+//helix1 matches the Polymere object calling alignHelix
+//helix2 matches the p2 Polymere object
+
+//Check the helix1 is a helix
+//Check that the size of helix1 is the same as the size of helix2
+
+/*
+The object of alignResidues is find the tranformation matrix 
+that minimizes the root mean square distance between the coordinates 
+(mols[helix1[i]]->x,mols[helix1[i]]->y,mols[helix1[i]]->z) and (p2->mols[helix1[i]]->x,p2->mols[helix1[i]]->y,p2->mols[helix1[i]]->z)
+after identifying the transformation matrix the full_atom vector should be 
+transformed to refect the alingment.  An example is given below that 
+uses the rmsd function to align the coordinates
+*/
+
+float d;
+float *v1,*v2;
+float *mtx;
+v1=NULL;
+v2=NULL;
+mtx=NULL;
+mtx=(float*) malloc(16*sizeof(float));
+  v1 =(float*) malloc(num_mols * 9 * sizeof(float));
+  v2 =(float*) malloc(num_mols * 9 * sizeof(float));
+if(v1==NULL || v2==NULL || mtx==NULL){
+d=-1;
+cout << "Allocation Failed" << endl;
+}else{
+int i=0;
+for(int j=0; j<num_mols; j++){
+//if(p2->mols[j]->group==1 || p2->mols[j]->group==2){
+float x1 = (float)mols[i]->x;
+float y1 = (float)mols[i]->y;
+float z1 = (float)mols[i]->z;
+float xb1 = (float)mols[i]->bx;
+float yb1 = (float)mols[i]->by;
+float zb1 = (float)mols[i]->bz;
+float xb21 = (float)mols[i]->b2x;
+float yb21 = (float)mols[i]->b2y;
+float zb21 = (float)mols[i]->b2z;
+v1[i*9+0]=x1;
+v1[i*9+1]=y1;
+v1[i*9+2]=z1;
+v1[i*9+3]=xb1;
+v1[i*9+4]=yb1;
+v1[i*9+5]=zb1;
+v1[i*9+6]=xb21;
+v1[i*9+7]=yb21;
+v1[i*9+8]=zb21;
+
+float x2 =(float) p2->mols[i]->x;
+float y2 =(float) p2->mols[i]->y;
+float z2 =(float) p2->mols[i]->z;
+float xb2 = (float)p2->mols[i]->bx;
+float yb2 = (float)p2->mols[i]->by;
+float zb2 = (float)p2->mols[i]->bz;
+float xb22 = (float)p2->mols[i]->b2x;
+float yb22 = (float)p2->mols[i]->b2y;
+float zb22 = (float)p2->mols[i]->b2z;
+v2[i*9+0]=x2;
+v2[i*9+1]=y2;
+v2[i*9+2]=z2;
+v2[i*9+3]=xb2;
+v2[i*9+4]=yb2;
+v2[i*9+5]=zb2;
+v2[i*9+6]=xb22;
+v2[i*9+7]=yb22;
+v2[i*9+8]=zb22;
+i++;
+//}
+}
+//cout << "Groups Numbers: " << i << endl;
+d=rmsd(v1,v2,i,mtx);
+printf("%8.3f\n",d);
+//update vectors
+for(int j=0; j<num_mols; j++){
+p2->mols[j]->x=v2[j*9+0];
+p2->mols[j]->y=v2[j*9+1];
+p2->mols[j]->z=v2[j*9+2];
+p2->mols[j]->bx=v2[j*9+3];
+p2->mols[j]->by=v2[j*9+4];
+p2->mols[j]->bz=v2[j*9+5];
+p2->mols[j]->b2x=v2[j*9+6];
+p2->mols[j]->b2y=v2[j*9+7];
+p2->mols[j]->b2z=v2[j*9+8];
+
+mols[j]->x=v1[j*9+0];
+mols[j]->y=v1[j*9+1];
+mols[j]->z=v1[j*9+2];
+mols[j]->bx=v1[j*9+3];
+mols[j]->by=v1[j*9+4];
+mols[j]->bz=v1[j*9+5];
+mols[j]->b2x=v1[j*9+6];
+mols[j]->b2y=v1[j*9+7];
+mols[j]->b2z=v1[j*9+8];
+
+//printf("%8.3f %8.3f %8.3f, %8.3f %8.3f %8.3f\n",mols[j]->x, mols[j]->y, mols[j]->z, p2->mols[j]->x, p2->mols[j]->y, p2->mols[j]->z);
+}
+this->updateFull();
+p2->updateFull();  
+free(v1);
+  free(v2);
+free(mtx);
+}
+
 }
 
 
