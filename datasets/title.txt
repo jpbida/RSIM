@@ -1,0 +1,2 @@
+Status of Current Challenges
+<div style="width:100%; height:100%; background:#39C0C4; opacity:0.4;position:absolute; top:0px; left:0px;z-index:-1"></div>

@@ -1,0 +1,7 @@
+<script type="text/javascript">
+$("#topic1").click(function(){    $.get("./code/topic1/page1.txt",function(data){$("#content").html(data);},"html");});
+$("#topic2").click(function(){    $.get("./code/topic1/page2.txt",function(data){$("#content").html(data);},"html");});
+</script>
+<div class="toclink" id="topic1">Page 1</div>
+<div class="toclink" id="topic2">Page 2</div>
+<div style="width:100%; height:100%; background:#39C0C4; opacity:0.4;position:absolute; top:0px; left:0px;z-index:-1"></div>

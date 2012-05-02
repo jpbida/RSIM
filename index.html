@@ -1,104 +1,98 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Rsim : RNA structure prediction program" />
-
+    <meta name="description" content="RSIM : RNA structure prediction program" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Rsim</title>
+    <title>RSIM</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
   </head>
 
   <body>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#button1").click(function(){
+    $.get("./code/toc.txt",function(data){$("#toc").html(data);},"html");
+    $.get("./code/home.txt",function(data){$("#content").html(data);},"html");
+    $.get("./code/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./code/toctitle.txt",function(data){$("#toc_title").html(data);},"html");
+});
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jpbida/RSIM">Fork Me on GitHub</a>
+$("#button2").click(function(){
+    $.get("./examples/toc.txt",function(data){$("#toc").html(data);},"html");
+    $.get("./examples/home.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/toctitle.txt",function(data){$("#toc_title").html(data);},"html");
+});
+$("#button3").click(function(){
+    $.get("./challenges/toc.txt",function(data){$("#toc").html(data);},"html");
+    $.get("./challenges/home.txt",function(data){$("#content").html(data);},"html");
+    $.get("./challenges/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./challenges/toctitle.txt",function(data){$("#toc_title").html(data);},"html");
+});
+$("#button4").click(function(){
+    $.get("./datasets/toc.txt",function(data){$("#toc").html(data);},"html");
+    $.get("./datasets/home.txt",function(data){$("#content").html(data);},"html");
+    $.get("./datasets/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./datasets/toctitle.txt",function(data){$("#toc_title").html(data);},"html");
+});
+$("#button5").click(function(){
+    $.get("./publications/toc.txt",function(data){$("#toc").html(data);},"html");
+    $.get("./publications/home.txt",function(data){$("#content").html(data);},"html");
+    $.get("./publications/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./publications/toctitle.txt",function(data){$("#toc_title").html(data);},"html");
+});
+$("#button6").click(function(){
+    $.get("./server/toc.txt",function(data){$("#toc").html(data);},"html");
+    $.get("./server/home.txt",function(data){$("#content").html(data);},"html");
+    $.get("./server/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./server/toctitle.txt",function(data){$("#toc_title").html(data);},"html");
+});
 
-          <h1 id="project_title">Rsim</h1>
-          <h2 id="project_tagline">RNA structure prediction program</h2>
+$(".bon").mouseover(function(){
+$(this).css("background-image","url('./images/button.png')");
+$(this).css("font-weight","bold");
+});
+$(".bon").mouseout(function(){
+$(this).css("background-image","none");
+$(this).css("font-weight","400");
+});
+});
+</script>
+<div style="position:absolute; left:10px; font-weight:bold; top:-16px; color: white;font-size:80px">RSIM</div>
+  <div style="position:absolute; left:15px; color:white; top:65px; font-size:25px">RNA Structure Prediction</div>
+<div id="button1" class="bon" style="display:block; position:absolute; top:27px; left:291px;height:78px;width:173px;text-align:center; color:white;padding-top:50px">Code Blog</div>
+<div id="button2" class="bon" style="display:block; position:absolute; top:27px; left:392px;height:78px;width:173px;text-align:center; color:white;padding-top:50px">Examples</div>
+<div id="button3" class="bon" style="display:block; position:absolute; top:27px; left:493px;height:78px;width:173px;text-align:center; color:white;padding-top:50px">Challenges</div>
+<div id="button4" class="bon" style="display:block; position:absolute; top:27px; left:594px;height:78px;width:173px;text-align:center; color:white;padding-top:50px">Datasets</div>
+<div id="button5" class="bon" style="display:block; position:absolute; top:27px; left:695px;height:78px;width:173px;text-align:center; color:white;padding-top:50px">Publications</div>
+<div id="button6" class="bon" style="display:block; position:absolute; top:27px; left:796px;height:78px;width:173px;text-align:center; color:white;padding-top:50px">Server</div>
+<div id="title" style="height:40px; border:3px solid #39C0C4; width:625px;-webkit-border-radius:15px;text-align:center;
+color:black; font-size:20px;padding-top:10px;
+-moz-border-radius:15px; border-radius:15px;  position:absolute; left:298px; top:110px">
+<div style="width:100%; height:100%; background:#39C0C4; opacity:0.4;position:absolute; top:0px; left:0px;z-index:-1"></div>
 
-          <section id="downloads">
-            <a class="zip_download_link" href="https://github.com/jpbida/RSIM/zipball/master">Download this project as a .zip file</a>
-            <a class="tar_download_link" href="https://github.com/jpbida/RSIM/tarball/master">Download this project as a tar.gz file</a>
-          </section>
-        </header>
-    </div>
+</div>
+<div id="content" style="padding:10px;height:667px; background:none; width:605px;color:black;-webkit-border-radius:15px;
+-moz-border-radius:15px; border-radius:15px;  position:absolute; left:298px; top:170px; border:3px solid #39C0C4">
+<div style="width:100%; height:100%; background:#39C0C4; opacity:0.4;position:absolute; top:0px; left:0px;z-index:-1"></div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>RSIMS - Is an RNA structure prediction and design C++ library</p>
 
-<p>RSIM is a C++ library for building RNA tertiary structures from a given set of secondary structure constraints. 
-It has been successfully compiled and run on Linux and Mac OSX operating systems. 
-The RSIM code can be downloaded and built using the following commands.</p>
+</div>
+<div id="toc_title" style="height:40px; border:3px solid #39C0C4;
+width:260px;-webkit-border-radius:15px;text-align:center; color:black; font-size:20px;
+-moz-border-radius:15px; border-radius:15px;  position:absolute; left:27px; top:110px;padding-top:10px;">
+<div style="opacity:1; color:black; font-weight:900"></div>
+<div style="width:100%; height:100%; background:#39C0C4; opacity:0.4;position:absolute; top:0px; left:0px;"></div>
+</div>
+<div id="toc" style="height:667px; border:3px solid #39C0C4; width:240px;-webkit-border-radius:15px; text-align:center;
+padding:10px;
+-moz-border-radius:15px; border-radius:15px;  position:absolute; left:27px; top:170px">
 
-<p>1.</p>
+<div style="width:100%; height:100%; background:#39C0C4; opacity:0.4;position:absolute; top:0px; left:0px;z-index:-1"></div>
 
-<pre><code>  Install git
-</code></pre>
-
-<p>2.</p>
-
-<pre><code>  Install the boost C++ library
-</code></pre>
-
-<p>3.</p>
-
-<pre><code>  Clone the RSIM git repository
-
-  &gt;cd /path_to_project
-  &gt;git clone git://github.com/jpbida/RSIM.git
-
-  This should create a directory RSIM in the path_to_project director with the RSIM library in it. If you are having trouble at this point check the github documentation for downloading public repositories.
-</code></pre>
-
-<p>4.</p>
-
-<pre><code>  If you did not install boost in /usr/include/boost edit the makefiles to point to the boost library
-
-  /path_to_project/rsim/src/makefile
-  /path_to_project/rsim/apps/makefile
-
-  Change the lines below to point to your boost installation
-
-  CPPFLAGS= -O3 -ffast-math -I /usr/include/boost
-  CPPFLAGS= -O3 -ffast-math -I /usr/include/boost -I ../src
-</code></pre>
-
-<p>5.</p>
-
-<pre><code>  Compile the applications by changing into the apps directory and using make. 
-  If the directory ./path_to_project/RSIM/bin doesn't exist you need to create it.
-
-  cd RSIM/src
-  make all
-  cd RSIM/apps
-  make all
-
-  This will create a set of binary files in the /bin directory.
-</code></pre>
-
-<ol>
-<li>
-  Then check out the examples in ./examples</li>
-</ol>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Rsim maintained by <a href="https://github.com/jpbida">jpbida</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+</div>
+</body>
 </html>

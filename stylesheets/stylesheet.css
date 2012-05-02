@@ -3,13 +3,12 @@ Slate Theme for Github Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
 
-@import url(pygment_trac.css);
 
 /*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
 
-html, body, div, span, applet, object, iframe,
+html,  div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -28,7 +27,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -54,15 +52,27 @@ a:focus {
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
-
+.bon{
+display:block;
+top:27px;
+height:78px;
+width:173px;
+text-align:center;
+color:white;
+padding-top:50px;
+font-weight:400px;
+}
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
-  font-size: 16px;
+  background: #000000 url('../images/RSIMHome3.png');
+background-repeat: no-repeat;
+    font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  width:948px;
+  height:964px; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -81,7 +91,6 @@ h1 {
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
@@ -231,7 +240,6 @@ hr {
   height: 1px;
   margin-bottom: 5px;
   border: none;
-  background: url('../images/bg_hr.png') repeat-x center;
 }
 
 table {
@@ -243,7 +251,6 @@ table {
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
-  background: #373737;
   color: #fff;
  }
 
@@ -253,7 +260,6 @@ td {
  }
 
 form {
-  background: #f2f2f2;
   padding: 20px;
 }
 
@@ -292,14 +298,6 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
-}
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
@@ -361,7 +359,6 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
@@ -371,7 +368,6 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
 }
 
 

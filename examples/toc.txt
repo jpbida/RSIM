@@ -1,0 +1,69 @@
+<script type="text/javascript">
+$("#topic1").click(function(){
+    $.get("./examples/topic1/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic1/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic1/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic2").click(function(){
+    $.get("./examples/topic2/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic2/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic2/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic3").click(function(){
+    $.get("./examples/topic3/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic3/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic3/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic4").click(function(){
+    $.get("./examples/topic4/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic4/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic4/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic5").click(function(){
+    $.get("./examples/topic5/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic5/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic5/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic6").click(function(){
+    $.get("./examples/topic6/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic6/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic6/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic7").click(function(){
+    $.get("./examples/topic7/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic7/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic7/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic8").click(function(){
+    $.get("./examples/topic8/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic8/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic8/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic9").click(function(){
+    $.get("./examples/topic9/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic9/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic9/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic10").click(function(){
+    $.get("./examples/topic10/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic10/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic10/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+$("#topic11").click(function(){
+    $.get("./examples/topic11/page1.txt",function(data){$("#content").html(data);},"html");
+    $.get("./examples/topic11/title.txt",function(data){$("#title").html(data);},"html");
+    $.get("./examples/topic11/toc.txt",function(data){$("#toc").html(data);},"html");
+    });
+</script>
+<div class="toclink" id="topic1">Converting PDB files</div>
+<div class="toclink" id="topic2">Extracting fragments from PDB files</div>
+<div class="toclink" id="topic3">Scoring a PDB file</div>
+<div class="toclink" id="topic4">Coverting PDB to 2D structure</div>
+<div class="toclink" id="topic5">Building an RNA conformation</div>
+<div class="toclink" id="topic6">Examples 6</div>
+<div class="toclink" id="topic7">Examples 7</div>
+<div class="toclink" id="topic8">Examples 8</div>
+<div class="toclink" id="topic9">Examples 9</div>
+<div class="toclink" id="topic10">Examples 10</div>
+<div class="toclink" id="topic11">Examples 11</div>
+<div style="width:100%; height:100%; background:#39C0C4; opacity:0.4;position:absolute; top:0px; left:0px;z-index:-1"></div>
