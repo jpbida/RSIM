@@ -1,0 +1,25 @@
+From b9237f824ac7cafe697550d0fb635a4e7e90f9aa Mon Sep 17 00:00:00 2001
+From: JP Bida <jpbida@comp1.local>
+Date: Thu, 26 Apr 2012 10:44:52 -0700
+Subject: [PATCH] My solution to challenge1
+
+---
+ src/polymere.cpp |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/src/polymere.cpp b/src/polymere.cpp
+index f230f39..42f0f12 100755
+--- a/src/polymere.cpp
++++ b/src/polymere.cpp
+@@ -1034,7 +1034,7 @@ delete pdb;
+ }
+ 
+ void Polymere::alignHelix(Polymere* p2,std::vector<int> helix1, std::vector<int> helix2){
+-//Jp's attempt at a solution to challenge 1
++//Jp's attempt at a solution to challenge 1 and create a pull request
+ //helix1 matches the Polymere object calling alignHelix
+ //helix2 matches the p2 Polymere object
+ 
+-- 
+1.7.5.4
+
