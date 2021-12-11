@@ -76,16 +76,24 @@ printf("Read in PDB file with %d models\n",pols.size());
 vector<char> vcomp(comp.begin(), comp.end());
 Polymere * out_pol = new Polymere(); 
 
-//Create new polymer 
+//Create new polymer
+int num_mols = 0; 
 for(int n=0; n < vcomp.size(); n++){
   if(vcomp[n]=='+'){
+    num_mols++;
     out_pol->mols.push_back(new Base());
   }
 }
 
+out_pol->num_mols=num_mols;
+out_pol->full_atoms.push_back(0);
+while(out_pol->full_atoms.size() < ((num_mols)*81) ){out_pol->full_atoms.push_back(0);}
+for(int i = 0; i < out_pol->full_atoms.size(); i++){ out_pol->full_atoms[i]=0;}
+
 for(int ply=0; ply<pols.size(); ply++){
   Polymere * cen = pols[ply];
-  cen->updateFull();
+ // cen->updateFull();
+  out_pol->num_mols=num_mols;
   int p = 0;
   int max_mols = vcomp.size();
   if(cen->mols.size() < vcomp.size()){
@@ -93,6 +101,7 @@ for(int ply=0; ply<pols.size(); ply++){
   }
   for(int m=0; m < max_mols; m++){
     if(vcomp[m]=='+'){
+	   printf("Writing %c\n",cen->mols[m]->seq);
       out_pol->mols[p]-> z     =cen->mols[m]->z;
       out_pol->mols[p]-> x     =cen->mols[m]->x;
       out_pol->mols[p]-> y     =cen->mols[m]->y; 
@@ -106,12 +115,27 @@ for(int ply=0; ply<pols.size(); ply++){
       out_pol->mols[p]-> b2z   =cen->mols[m]->b2z;
       out_pol->mols[p]-> id    =cen->mols[m]->id;
       out_pol->mols[p]-> prob    =cen->mols[m]->prob;
+      int bpos=cen->getResidueStart(m);
+      int bpos_new = out_pol->getResidueStart(p);
+      int t = 0;
+      for(int fa=bpos; fa < bpos+81; fa++){
+         out_pol->full_atoms[bpos_new+t] = cen->full_atoms[fa];
+         t++;
+      }
       p++;
     } 
   }
+printf("Cen Num Mols %d\n",cen->num_mols);
+printf("Cen Full Atoms %d\n",cen->full_atoms.size());
+//out_pol->updateFull();
+
+printf("Out Num Mols %d\n",out_pol->num_mols);
+printf("Out Full Atoms %d\n",out_pol->full_atoms.size());
 
 Pdb * out_pdb = new Pdb(out_pol,'J');
 out_pdb->write(output);
+out_pdb->clear();
+delete out_pdb;
 }
 }
 
